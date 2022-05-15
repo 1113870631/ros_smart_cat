@@ -1,0 +1,8 @@
+prefix=/home/ww/smart/obs_tr_node/devel
+
+Name: obs_pub
+Description: Description of obs_pub
+Version: 0.0.0
+Cflags: -I/home/ww/smart/obs_tr_node/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+obs_pub:obs_sub
+-DCATKIN_DEVEL_PREFIX=/home/ww/smart/obs_tr_node/devel -DCMAKE_INSTALL_PREFIX=/home/ww/smart/obs_tr_node/install -G Unix Makefiles
