@@ -4,6 +4,21 @@
 obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o
  /home/ww/smart/obs_tr_node/devel/include/obs_sub/obs_msg.h
  /home/ww/smart/obs_tr_node/src/obs_sub/src/mian.cpp
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/all/all.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/all/mavlink.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/all/version.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/checksum.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_conversions.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_get_info.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_helpers.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_sha256.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_types.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/minimal/./mavlink_msg_heartbeat.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/minimal/./mavlink_msg_protocol_version.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/minimal/minimal.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/my_info/./mavlink_msg_my_info.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/my_info/my_info.h
+ /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/protocol.h
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h

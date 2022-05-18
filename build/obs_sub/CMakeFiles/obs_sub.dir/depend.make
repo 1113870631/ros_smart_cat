@@ -3,6 +3,21 @@
 
 obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/devel/include/obs_sub/obs_msg.h
 obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/mian.cpp
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/all/all.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/all/mavlink.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/all/version.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/checksum.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_conversions.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_get_info.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_helpers.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_sha256.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/mavlink_types.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/minimal/./mavlink_msg_heartbeat.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/minimal/./mavlink_msg_protocol_version.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/minimal/minimal.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/my_info/./mavlink_msg_my_info.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/my_info/my_info.h
+obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/protocol.h
 obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 obs_sub/CMakeFiles/obs_sub.dir/src/mian.cpp.o: /opt/ros/melodic/include/ros/assert.h

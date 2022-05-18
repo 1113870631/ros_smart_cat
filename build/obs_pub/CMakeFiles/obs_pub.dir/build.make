@@ -97,8 +97,8 @@ obs_pub_EXTERNAL_OBJECTS =
 /home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /opt/ros/melodic/lib/librosconsole_backend_interface.so
 /home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /opt/ros/melodic/lib/libxmlrpcpp.so
 /home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /opt/ros/melodic/lib/libxmlrpcpp.so
 /home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /opt/ros/melodic/lib/librostime.so
 /home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /opt/ros/melodic/lib/libcpp_common.so
 /home/ww/smart/obs_tr_node/devel/lib/obs_pub/obs_pub: /usr/lib/x86_64-linux-gnu/libboost_system.so

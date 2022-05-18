@@ -12,7 +12,7 @@ using namespace std;
 using namespace cv;
 extern int  setNumDisparities;
 extern Mat row;
-extern      vector<Vec2f>Obstacles_word_pos;
+extern      vector<Vec3f>Obstacles_word_pos;
 void disp_per_deal(Mat & disp);//视差图预处理  加横格
 
 

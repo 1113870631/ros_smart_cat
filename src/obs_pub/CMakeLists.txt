@@ -112,6 +112,10 @@ catkin_package(
 ###########
 ## Build ##
 ###########
+find_package(catkin  REQUIRED COMPONENTS
+  roscpp
+)
+include_directories(include ${catkin_INCLUDE_DIRS} )
 find_package(OpenCV REQUIRED)
 find_package(Threads)
 

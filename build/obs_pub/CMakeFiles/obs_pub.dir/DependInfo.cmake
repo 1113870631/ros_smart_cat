@@ -18,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ww/smart/obs_tr_node/devel/include"
+  "/home/ww/smart/obs_tr_node/src/obs_pub/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/home/ww/smart/obs_tr_node/src/obs_pub/src/stereo_src"

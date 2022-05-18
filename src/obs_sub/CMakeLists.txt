@@ -112,6 +112,7 @@ catkin_package(
 ###########
 ## Build ##
 ###########
+include_directories(/home/ww/smart/obs_tr_node/src/obs_sub/src/my_mavlink/all)
 add_executable(${PROJECT_NAME} src/mian.cpp)
 target_link_libraries(${PROJECT_NAME}
  ${catkin_LIBRARIES}

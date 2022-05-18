@@ -145,7 +145,7 @@ void Ground_Ex_line(vector<Vec4f>ground_line_v, Mat  &disp,Mat & color_picture){
                     uchar *data = disp.ptr<uchar>(tmp_v, tmp_U);
                     if((int)(*data)-tmp_disp<Ground_err&&(int)(*data)-tmp_disp>-Ground_err)
                    { *data=0;
-                    color_picture.at<Vec3b>(tmp_v,tmp_U)=0;
+                    //color_picture.at<Vec3b>(tmp_v,tmp_U)=0;
                     }
                     //cout<<(int)*data<<endl;               
                 }

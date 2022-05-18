@@ -99,6 +99,10 @@ opencv2/imgproc/imgproc_c.h
 -
 
 /home/ww/smart/obs_tr_node/src/obs_pub/src/stereo_src/obs_info_tr.h
+/home/ww/smart/obs_tr_node/devel/include/obs_pub/obs_msg.h
+-
+ros/ros.h
+-
 
 /home/ww/smart/obs_tr_node/src/obs_pub/src/stereo_src/picture_ex.h
 opencv2/opencv.hpp

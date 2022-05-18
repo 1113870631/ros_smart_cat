@@ -26,7 +26,7 @@ using namespace std;
 
 Mat row,sgm_guiyi;    
 Mat Q_my;
-vector<Vec2f>Obstacles_word_pos;
+vector<Vec3f>Obstacles_word_pos;
   //立体匹配参数
     int setblock=5;
     int setNumDisparities=165;
@@ -80,12 +80,12 @@ int main(int argc, char **argv)
     int deviceID = 4;             // 0 = open default camera
     int apiID = cv::CAP_ANY;      // 0 = autodetect default API
     // open selected camera using selected API
- /*cap.open(deviceID, apiID);
+    cap.open(deviceID, apiID);
     cap.set(CAP_PROP_FRAME_WIDTH,1280);
     cap.set(CAP_PROP_FRAME_HEIGHT,480);
-    cap.set(CV_CAP_PROP_FOURCC, CV_FOURCC('M', 'J', 'P', 'G'));//视频流格式  */
+    cap.set(CV_CAP_PROP_FOURCC, CV_FOURCC('M', 'J', 'P', 'G'));//视频流格式  
 //cap.open("v4l2src device=/dev/video4    !   video/x-raw,width=1280,height=480  !  videoconvert   !  appsink", cv::CAP_GSTREAMER);
-cap.open("udpsrc port=5600 ! application/x-rtp ! rtph264depay   ! decodebin ! videoconvert ! video/x-raw,format=(string)BGR ! videoconvert ! appsink sync=false max-buffers=1 drop=true ", cv::CAP_GSTREAMER);
+//cap.open("udpsrc port=5600 ! application/x-rtp ! rtph264depay   ! decodebin ! videoconvert ! video/x-raw,format=(string)BGR ! videoconvert ! appsink sync=false max-buffers=1 drop=true ", cv::CAP_GSTREAMER);
  
 
     // check if we succeeded
@@ -165,7 +165,7 @@ while(1)
           //分离地面   障碍物检测
           ground_all(sgm_guiyi,hconcat_pic); 
           //发送障碍物信息
-            obs_info_send();
+           obs_info_send(info_pub);
           if (waitKey(5) >= 0)
           break;
     }

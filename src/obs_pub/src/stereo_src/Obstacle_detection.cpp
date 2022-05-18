@@ -66,7 +66,7 @@ extern Mat row;
 
  extern Mat row;
  extern Mat  Q_my;
-    void Obstacle_dis_rectangle(vector<cv::Vec4f> Obstacles,vector<cv::Vec2f>&Obstacles_word_pos,Mat color_picture,Mat disp,Mat World_coordinate_pos){
+    void Obstacle_dis_rectangle(vector<cv::Vec4f> Obstacles,vector<cv::Vec3f>&Obstacles_word_pos,Mat color_picture,Mat disp,Mat World_coordinate_pos){
         
         vector<Vec4f>::iterator it0;
         for(it0=Obstacles.begin();it0!=Obstacles.end();it0++){
@@ -100,9 +100,9 @@ extern Mat row;
                  int pos_x=(int)World_coordinate_pos.at<Vec3f>(Point(center_x,center_y))[0]/10;
                  int pos_y=(int)World_coordinate_pos.at<Vec3f>(Point(center_x,center_y))[1]/10;
                  //返回信息
-                 Obstacles_word_pos.push_back(Vec2f(pos_x,pos_y));
+                 Obstacles_word_pos.push_back(Vec3f(pos_x,pos_y,depth));
+                //显示到图片
                  string word_pos="("+to_string(pos_x)+","+to_string(pos_y)+")";
-                 //cout<<word_pos<<endl;
                  putText(color_picture, distance, Point((*it0)[0]+20,(*it0)[1]-100 ),  FONT_HERSHEY_SIMPLEX, 1.0f, Scalar (255,255,0), 3, 8,false);   
                  putText(color_picture, word_pos, Point((*it0)[0]+20,(*it0)[1]+40-100 ),  FONT_HERSHEY_SIMPLEX, 1.0f, Scalar (255,255,0), 3, 8,false);               
         }
